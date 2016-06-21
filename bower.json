@@ -2,7 +2,7 @@
   "name": "paper-dialog",
   "description": "A Material Design dialog",
   "version": "1.0.4",
-  "authors": "The Polymer Authors",
+  "authors": [ "The Polymer Authors","Raymond Ie" ],
   "keywords": [
     "web-components",
     "polymer",
@@ -13,14 +13,14 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/PolymerElements/paper-dialog"
+    "url": "git://github.com/rayie/paper-dialog"
   },
   "license": "http://polymer.github.io/LICENSE.txt",
   "homepage": "https://github.com/PolymerElements/paper-dialog",
   "ignore": [],
   "dependencies": {
     "neon-animation": "PolymerElements/neon-animation#^1.0.0",
-    "paper-dialog-behavior": "PolymerElements/paper-dialog-behavior#^1.0.0",
+    "paper-dialog-behavior": "rayie/paper-dialog-behavior#master",
     "paper-styles": "PolymerElements/paper-styles#^1.0.0",
     "polymer": "Polymer/polymer#^1.1.0"
   },
